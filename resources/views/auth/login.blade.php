@@ -13,7 +13,7 @@
             
             <div class="mb-4">
                 <label for="Email" class="sr-only">Email</label>
-                <input type="text" name="email" id="email" placeholder="Your email"
+                <input type="text" name="email" id="email" placeholder=""
                 class="bg-grey-100 border-2 w-full p-4 rounded-lg" value="{{ old('email') }}">
                 @error('email')
                     <div class="text-red-500 mt-2 text-sm">
